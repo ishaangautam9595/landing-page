@@ -4,7 +4,7 @@ import { topFeatures, middleFeatures, bottomFeatures } from "./featureData";
 
 export default function ClassroomFeatures() {
   return (
-    <div className="flex flex-col pr-3 pl-32 bg-white max-md:pl-5 max-md:max-w-full">
+    <div className="flex flex-col pr-3 items-center bg-white max-md:pl-5 max-md:max-w-full">
       <div className="flex z-10 flex-col self-end w-full text-center max-w-[1167px] max-md:max-w-full">
         <div className="flex flex-col self-start mt-16 max-md:mt-10 max-md:max-w-full">
           <h1 className="self-center text-4xl font-bold tracking-tighter leading-loose text-sky-800 max-md:max-w-full">

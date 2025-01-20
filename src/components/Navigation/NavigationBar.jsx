@@ -12,7 +12,7 @@ const navigationLinks = [
 
 function NavigationBar() {
   return (
-    <nav className="flex flex-col px-16 pb-7 w-full bg-sky-700 max-md:px-5 max-md:max-w-full">
+    <nav className="flex flex-col px-16 pb-7 items-center w-full bg-sky-700 max-md:px-5 max-md:max-w-full">
       <div className="flex flex-wrap gap-5 justify-between py-2 max-w-full bg-sky-700 w-[1310px] max-md:pr-5">
         <img
           loading="lazy"
