@@ -1,0 +1,18 @@
+#pot {
+    position: absolute;
+    z-index: 0;
+    animation: linear infinite;
+    animation-name: run;
+    animation-duration: 15s;
+  }
+  @keyframes run {
+    0% {
+      left: 100%;
+    }
+    50% {
+      left: 100%;
+    }
+    100% {
+      left: 0%;    
+    }
+  }
