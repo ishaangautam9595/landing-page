@@ -1,6 +1,5 @@
 import * as React from "react";
 import { TrustedInstitutes } from "./TrustedInstitutes";
-import Pencil from "../../assets/Pencil.png"
 import brush from "../../assets/brush.png"
 
 export function LandingPage() {
@@ -25,18 +24,12 @@ export function LandingPage() {
           View Features
         </button>
       </div>
-      <div className="flex gap-4 items-center mt-6 max-w-full text-sm font-semibold text-center text-white min-h-[21px] w-[447px]">
+      <div className="flex gap-4 items-center mt-6 mb-20 max-w-full text-sm font-semibold text-center text-white min-h-[21px] w-[447px]">
         <div className="self-stretch my-auto min-w-[240px] w-[447px] max-md:max-w-full">
           <span className="text-orange-400">1000+ Teachers</span>{" "}
           <span className="">trusted Adaptmate.</span>
         </div>
       </div>
-      <img
-        loading="lazy"
-        src={Pencil}
-        alt="Decorative element"
-        className="object-contain self-start mt-7 ml-16 aspect-[1.05] w-[39px] max-md:ml-2.5"
-      />
       <TrustedInstitutes />
       
     </div>
