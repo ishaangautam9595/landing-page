@@ -18,9 +18,9 @@ function NavigationBar() {
           loading="lazy"
           src={Logo}
           alt=""
-          className="object-contain shrink-0 max-w-full aspect-[3.82] w-[272px]"
+          className="object-contain shrink-0 max-w-full aspect-[2.82] w-[272px]"
           />
-        <div className="flex flex-wrap gap-3 self-start max-md:max-w-full">
+        <div className="flex flex-wrap gap-3 pt-6 self-start max-md:max-w-full">
           <div className="flex flex-auto gap-7 items-center my-auto text-white min-h-[20px]">
             {navigationLinks.map((link, index) => (
               <NavigationLink key={index} text={link.text} url={link.url} />

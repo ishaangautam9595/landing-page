@@ -19,14 +19,14 @@ export default function IcebergSection() {
         loading="lazy"
         src={Up}
         alt="Iceberg illustration showing visible and hidden teaching challenges"
-        className="object-contain max-w-full aspect-[1.55] w-[958px]"
+        className="object-contain max-w-full aspect-[1.55] w-[988px]"
       />
-      <div className="flex flex-col items-center self-stretch px-20 pb-14 mt-3.5 w-full text-sky-800 bg-sky-400 bg-opacity-20 max-md:px-5 max-md:pb-24 max-md:max-w-full">
+      <div className="flex flex-col items-center px-20 pb-14 w-full text-sky-800 bg-sky-400 bg-opacity-20 max-md:px-5 max-md:pb-24 max-md:max-w-full">
       <img
         loading="lazy"
         src={Down}
         alt="Iceberg illustration showing visible and hidden teaching challenges"
-        className="object-contain mb-20 max-w-full aspect-[2] h-[auto] w-[958px]"
+        className="object-contain mb-6 max-w-full aspect-[1.75] h-[auto] w-[1200px]"
       />
       </div>
     </div>

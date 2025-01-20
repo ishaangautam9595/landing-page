@@ -5,7 +5,7 @@ import brush from "../../assets/brush.png"
 export function LandingPage() {
   return (
     <div className="flex z-10 flex-col items-center m-0 p-0 font-medium bg-sky-700 max-md:max-w-screen">
-      <div className="mt-16 w-[600px] text-5xl font-bold text-center text-white leading-[54px] max-md:mt-10 max-md:max-w-full">
+      <div className="mt-8 w-[600px] text-5xl font-bold text-center text-white leading-[54px] max-md:mt-10 max-md:max-w-full">
         <span className="text-neutral-100">Identify and Bridge</span>{" "}
         <span className="text-blue-300">Learning Gaps</span>{" "}
         <span className="text-neutral-100">Effortlessly</span>.
